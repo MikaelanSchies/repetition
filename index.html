@@ -5,39 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Цікаві факти про довкілля</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css">
+    <link
+    href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/style.css">
   </head>
   <body>
+    <!-- ========== HEADER ========== -->
     <header>
       <nav>
-        <ul>
-          <li><a href="#осінь">Осінь</a></li>
-          <li><a href="#космос">Космос</a></li>
-          <li><a href="#коти">Коти</a></li>
+        <ul class="header-list">
+          <li><a class="header-link link" href="#autumn">Осінь</a></li>
+          <li><a class="header-link link" href="#space">Космос</a></li>
+          <li><a class="header-link link" href="#cats">Коти</a></li>
         </ul>
       </nav>
-      <address>
-        <ul>
-          <li></li>
-          <li></li>
-        </ul>
-      </address>
     </header>
+    <!-- ========== HEADER ========== -->
+    <!-- ========== MAIN ========== -->
     <main>
-      <!--Перша секція-->
+      <!-- ========== Перша секція ========== -->
       <section>
         <div>
-          <h1>Цікаві факти</h1>
+          <h1 class="title">Цікаві факти</h1>
         </div>
       </section>
-      <!--Друга секція-->
-      <section>
-        <div>
-          <h2>Осінь</h2>
-          <ul>
-            <li>
+      <!-- ========== СЕКЦІЯ AUTUMN ========== -->
+      <section id="autumn">
+        <div class="autumn-container container">
+          <h2 class="autumn-title">Осінь</h2>
+          <ul class="autumn-list">
+            <li class="autumn-list-item">
               <div>
-                <img
+                <img class="autumn-list-img"
                   src="./images/Images-net/autumn-1.webp"
                   alt="Осіннє озеро та дерев'яна доріжка"
                   width="360"
@@ -45,32 +49,32 @@
                 />
                 <ol>
                   <li>
-                    <p>
+                    <p class="paragraf-text">
                       До 18-го століття в Київській Русі вважалося, що осінь
                       починається не 1, а 23 вересня, а закінчувалася 25 грудня.
                     </p>
                   </li>
                   <li>
-                    <p>
+                    <p class="paragraf-text">
                       Осіннє рівнодення припадає на 22-23 вересня. Тому раніше
                       осінь і відраховували з 23-го числа, а не з 1-го.
                     </p>
                   </li>
                   <li>
-                    <p>
+                    <p class="paragraf-text">
                       У Південній півкулі осінніми місяцями є березень, квітень
                       і травень.
                     </p>
                   </li>
                   <li>
-                    <p>
+                    <p class="paragraf-text">
                       У екваторіальному поясі землі осені як такої немає. Там
                       взагалі немає зими або літа, їх замінюють сухий і дощовий
                       сезони.
                     </p>
                   </li>
                   <li>
-                    <p>
+                    <p class="paragraf-text">
                       Осіння депресія – реально існуючий діагноз. Нею страждає
                       близько 5% населення країн, в яких осінь є.
                     </p>
@@ -78,9 +82,9 @@
                 </ol>
               </div>
             </li>
-            <li>
+            <li class="autumn-list-item">
               <div>
-                <img
+                <img class="autumn-list-img"
                   src="./images/Images-net/autumn-2.webp"
                   alt="Осінній ліс"
                   width="360"
@@ -122,9 +126,9 @@
                 </ol>
               </div>
             </li>
-            <li>
+            <li class="autumn-list-item">
               <div>
-                <img
+                <img class="autumn-list-img"
                   src="./images/Images-net/autumn-3.jpg"
                   alt="Лісова дорога восени"
                   width="360"
@@ -168,14 +172,14 @@
           </ul>
         </div>
       </section>
-      <!--Третя секція-->
-      <section>
-        <div>
-          <h2>Космос</h2>
-          <ul>
-            <li>
+      <!-- ========== СЕКЦІЯ SPACE ========== -->
+      <section id="space">
+        <div class="space-container container">
+          <h2 class="space-title">Космос</h2>
+          <ul class="space-list">
+            <li class="space-list-item">
               <div>
-                <img
+                <img class="space-list-img"
                   src="./images/Images-net/space-1.webp"
                   alt="Пустеля та планета на фоні"
                   width="360"
@@ -219,9 +223,9 @@
                 </ol>
               </div>
             </li>
-            <li>
+            <li class="space-list-item">
               <div>
-                <img
+                <img class="space-list-img"
                   src="./images/Images-net/space-2.jpg"
                   alt="Космос та планети"
                   width="360"
@@ -271,9 +275,9 @@
                 </ol>
               </div>
             </li>
-            <li>
+            <li class="space-list-item">
               <div>
-                <img
+                <img class="space-list-img"
                   src="./images/Images-net/space-3.avif"
                   alt="Космонавт в скафандрі"
                   width="360"
@@ -324,14 +328,14 @@
           </ul>
         </div>
       </section>
-      <!--Четверта секція-->
-      <section>
-        <div>
-          <h2>Коти</h2>
-          <ul>
-            <li>
+      <!-- ========== СЕКЦІЯ CATS ========== -->
+      <section id="cats">
+        <div class="cats-container container">
+          <h2 class="cats-title">Коти</h2>
+          <ul class="cats-list">
+            <li class="cats-list-item">
               <div>
-                <img
+                <img class="cats-list-img"
                   src="./images/Images-net/cat-1.jpg"
                   alt="Рябий лежачий кіт в рожевих окулярах"
                   width="360"
@@ -375,9 +379,9 @@
                 </ol>
               </div>
             </li>
-            <li>
+            <li class="cats-list-item">
               <div>
-                <img
+                <img class="cats-list-img"
                   src="./images/Images-net/cat-2.webp"
                   alt="Біля кішка в окулярах та шубці"
                   width="360"
@@ -410,9 +414,9 @@
                 </ol>
               </div>
             </li>
-            <li>
+            <li class="cats-list-item">
               <div>
-                <img
+                <img  class="cats-list-img"
                   src="./images/Images-net/cat-3.webp"
                   alt="Рижий кіт в банному халаті та окулярах"
                   width="360"
@@ -449,16 +453,20 @@
         </div>
       </section>
     </main>
+    <!-- ========== FOOTER ========== -->
     <footer>
       <div>
-        <ul>
+        <ul class="footer-list">
           <li>
             <a
               href="https://www.instagram.com/oleksandra_breiter/profilecard/?igsh=MWF5YWFha2FsM3QwcQ=="
               target="_blank"
               rel="noopener noreferrer"
               lang="en"
-              >Instagram</a
+              class="footer-link"
+              ><svg class="footer-icons" width="48" height="48">
+                <use href="./images/Images-net/icons.svg#icon-instagram-2"></use>
+              </svg></a
             >
           </li>
           <li>
@@ -467,7 +475,10 @@
               target="_blank"
               rel="noopener noreferrer"
               lang="en"
-              >facebook</a
+              class="footer-link"
+              ><svg class="footer-icons" width="48" height="48">
+                <use href="./images/Images-net/icons.svg#icon-facebook-2"></use>
+              </svg></a
             >
           </li>
         </ul>
